@@ -38,9 +38,6 @@ public class LayoutConstraint : NSLayoutConstraint {
             self.identifier = newValue
         }
     }
-    
-    internal weak var constraint: Constraint? = nil
-    
 }
 
 internal func ==(lhs: LayoutConstraint, rhs: LayoutConstraint) -> Bool {

@@ -12,7 +12,6 @@
 		7E1CB2B0227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1CB2AF227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift */; };
 		EE235F5F1C5785BC00C08960 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F5E1C5785BC00C08960 /* Debugging.swift */; };
 		EE235F6D1C5785C600C08960 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F621C5785C600C08960 /* Constraint.swift */; };
-		EE235F701C5785C600C08960 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F631C5785C600C08960 /* ConstraintDescription.swift */; };
 		EE235F731C5785C600C08960 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F641C5785C600C08960 /* ConstraintInsets.swift */; };
 		EE235F761C5785C600C08960 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F651C5785C600C08960 /* ConstraintConfig.swift */; };
 		EE235F791C5785C600C08960 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F661C5785C600C08960 /* ConstraintView.swift */; };
@@ -27,13 +26,7 @@
 		EE235FA01C5785CE00C08960 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F921C5785CE00C08960 /* ConstraintOffsetTarget.swift */; };
 		EE235FA31C5785CE00C08960 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F931C5785CE00C08960 /* ConstraintInsetTarget.swift */; };
 		EE235FAC1C5785D400C08960 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FA61C5785D400C08960 /* ConstraintMaker.swift */; };
-		EE235FAF1C5785D400C08960 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FA71C5785D400C08960 /* ConstraintMakerFinalizable.swift */; };
-		EE235FB21C5785D400C08960 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FA81C5785D400C08960 /* ConstraintMakerPriortizable.swift */; };
-		EE235FB51C5785D400C08960 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FA91C5785D400C08960 /* ConstraintMakerEditable.swift */; };
-		EE235FB81C5785D400C08960 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FAA1C5785D400C08960 /* ConstraintMakerRelatable.swift */; };
-		EE235FBB1C5785D400C08960 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FAB1C5785D400C08960 /* ConstraintMakerExtendable.swift */; };
 		EE235FC01C5785DC00C08960 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FBE1C5785DC00C08960 /* ConstraintViewDSL.swift */; };
-		EE235FC31C5785DC00C08960 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FBF1C5785DC00C08960 /* ConstraintLayoutSupportDSL.swift */; };
 		EE235FC81C5785E200C08960 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235FC61C5785E200C08960 /* ConstraintView+Extensions.swift */; };
 		EE4910991B19A40200A54F1F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBCC9D819CC627D0083B827 /* SnapKit.framework */; };
 		EE6087751E4F133E0029CF84 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6087741E4F133E0029CF84 /* ConstraintPriority.swift */; };
@@ -43,20 +36,18 @@
 		EEF68F9E1D78492400980C26 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF68F9D1D78492400980C26 /* ConstraintLayoutGuideDSL.swift */; };
 		EEF68FA61D784A5300980C26 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF68FA51D784A5300980C26 /* ConstraintDSL.swift */; };
 		EEF68FB01D784FB100980C26 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF68FAF1D784FB100980C26 /* ConstraintLayoutGuide+Extensions.swift */; };
-		EEF68FB41D784FBA00980C26 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF68FB31D784FBA00980C26 /* UILayoutSupport+Extensions.swift */; };
 		EEF68FBC1D78653000980C26 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF68FBB1D78653000980C26 /* ConstraintLayoutGuide.swift */; };
-		EEF68FC01D7865AA00980C26 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF68FBF1D7865AA00980C26 /* ConstraintLayoutSupport.swift */; };
 		F6CB45262325A24600C8CCDD /* BetaDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB45252325A24600C8CCDD /* BetaDSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08AF38FC2333AF1700453140 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2DBA080D1F1FAD66001CFED4 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		537DCE9A1C35CD4100B5B899 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7E1CB2AD227BB5520066B6C0 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		7E1CB2AF227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		EE235F5E1C5785BC00C08960 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
 		EE235F621C5785C600C08960 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
-		EE235F631C5785C600C08960 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
 		EE235F641C5785C600C08960 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
 		EE235F651C5785C600C08960 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
 		EE235F661C5785C600C08960 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
@@ -71,13 +62,7 @@
 		EE235F921C5785CE00C08960 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		EE235F931C5785CE00C08960 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		EE235FA61C5785D400C08960 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
-		EE235FA71C5785D400C08960 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		EE235FA81C5785D400C08960 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		EE235FA91C5785D400C08960 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		EE235FAA1C5785D400C08960 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		EE235FAB1C5785D400C08960 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		EE235FBE1C5785DC00C08960 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		EE235FBF1C5785DC00C08960 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		EE235FC61C5785E200C08960 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		EE6087741E4F133E0029CF84 /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
 		EE6898CA1DA7B3A100D47F33 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
@@ -92,10 +77,8 @@
 		EEF68F9D1D78492400980C26 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		EEF68FA51D784A5300980C26 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
 		EEF68FAF1D784FB100980C26 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		EEF68FB31D784FBA00980C26 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		EEF68FBB1D78653000980C26 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		EEF68FBF1D7865AA00980C26 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		F6CB45252325A24600C8CCDD /* BetaDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BetaDSL.swift; path = ../../../../../System/Volumes/Data/Users/morpheby/workspace/SnapKit/Source/BetaDSL.swift; sourceTree = "<group>"; };
+		F6CB45252325A24600C8CCDD /* BetaDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaDSL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +103,7 @@
 		DDC9FD8C1981B4DD009612C7 = {
 			isa = PBXGroup;
 			children = (
+				08AF38FC2333AF1700453140 /* MyPlayground.playground */,
 				EECDB35D1AC0C95C006BBC11 /* Source */,
 				EE94F60C1AC0F113008767FF /* Frameworks */,
 				DDC9FD961981B4DD009612C7 /* Products */,
@@ -140,7 +124,6 @@
 			children = (
 				EE235FC61C5785E200C08960 /* ConstraintView+Extensions.swift */,
 				EEF68FAF1D784FB100980C26 /* ConstraintLayoutGuide+Extensions.swift */,
-				EEF68FB31D784FBA00980C26 /* UILayoutSupport+Extensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -151,7 +134,6 @@
 				EEF68FA51D784A5300980C26 /* ConstraintDSL.swift */,
 				EE235FBE1C5785DC00C08960 /* ConstraintViewDSL.swift */,
 				EEF68F9D1D78492400980C26 /* ConstraintLayoutGuideDSL.swift */,
-				EE235FBF1C5785DC00C08960 /* ConstraintLayoutSupportDSL.swift */,
 				F6CB45252325A24600C8CCDD /* BetaDSL.swift */,
 			);
 			name = DSLs;
@@ -161,11 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				EE235FA61C5785D400C08960 /* ConstraintMaker.swift */,
-				EE235FA71C5785D400C08960 /* ConstraintMakerFinalizable.swift */,
-				EE235FA81C5785D400C08960 /* ConstraintMakerPriortizable.swift */,
-				EE235FA91C5785D400C08960 /* ConstraintMakerEditable.swift */,
-				EE235FAA1C5785D400C08960 /* ConstraintMakerRelatable.swift */,
-				EE235FAB1C5785D400C08960 /* ConstraintMakerExtendable.swift */,
 			);
 			name = Maker;
 			sourceTree = "<group>";
@@ -189,13 +166,11 @@
 			children = (
 				2DBA080D1F1FAD66001CFED4 /* Typealiases.swift */,
 				EE235F621C5785C600C08960 /* Constraint.swift */,
-				EE235F631C5785C600C08960 /* ConstraintDescription.swift */,
 				EE235F641C5785C600C08960 /* ConstraintInsets.swift */,
 				7E1CB2AF227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift */,
 				EE235F651C5785C600C08960 /* ConstraintConfig.swift */,
 				EE235F661C5785C600C08960 /* ConstraintView.swift */,
 				EEF68FBB1D78653000980C26 /* ConstraintLayoutGuide.swift */,
-				EEF68FBF1D7865AA00980C26 /* ConstraintLayoutSupport.swift */,
 				EE235F681C5785C600C08960 /* ConstraintRelation.swift */,
 				EE235F6A1C5785C600C08960 /* ConstraintAttributes.swift */,
 				EE235F6B1C5785C600C08960 /* ConstraintItem.swift */,
@@ -371,42 +346,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE235F731C5785C600C08960 /* ConstraintInsets.swift in Sources */,
-				EE235FAF1C5785D400C08960 /* ConstraintMakerFinalizable.swift in Sources */,
 				EE235F971C5785CE00C08960 /* ConstraintConstantTarget.swift in Sources */,
 				EE235FC81C5785E200C08960 /* ConstraintView+Extensions.swift in Sources */,
-				EE235FB81C5785D400C08960 /* ConstraintMakerRelatable.swift in Sources */,
 				EE235F851C5785C600C08960 /* ConstraintAttributes.swift in Sources */,
 				EE235FA01C5785CE00C08960 /* ConstraintOffsetTarget.swift in Sources */,
 				EEF68F9E1D78492400980C26 /* ConstraintLayoutGuideDSL.swift in Sources */,
-				EE235FB51C5785D400C08960 /* ConstraintMakerEditable.swift in Sources */,
 				EEF68FBC1D78653000980C26 /* ConstraintLayoutGuide.swift in Sources */,
 				EE235FAC1C5785D400C08960 /* ConstraintMaker.swift in Sources */,
 				7E1CB2AE227BB5520066B6C0 /* ConstraintDirectionalInsetTarget.swift in Sources */,
 				EE6087751E4F133E0029CF84 /* ConstraintPriority.swift in Sources */,
 				EE235F941C5785CE00C08960 /* ConstraintRelatableTarget.swift in Sources */,
 				EEF68FA61D784A5300980C26 /* ConstraintDSL.swift in Sources */,
-				EE235FBB1C5785D400C08960 /* ConstraintMakerExtendable.swift in Sources */,
 				EE235F881C5785C600C08960 /* ConstraintItem.swift in Sources */,
 				2DBA080E1F1FAD66001CFED4 /* Typealiases.swift in Sources */,
 				EE235F9A1C5785CE00C08960 /* ConstraintPriorityTarget.swift in Sources */,
-				EEF68FC01D7865AA00980C26 /* ConstraintLayoutSupport.swift in Sources */,
 				EEF68FB01D784FB100980C26 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
 				F6CB45262325A24600C8CCDD /* BetaDSL.swift in Sources */,
 				EE235F761C5785C600C08960 /* ConstraintConfig.swift in Sources */,
 				EE235F6D1C5785C600C08960 /* Constraint.swift in Sources */,
 				EE235F791C5785C600C08960 /* ConstraintView.swift in Sources */,
 				EE6898CB1DA7B3A100D47F33 /* LayoutConstraintItem.swift in Sources */,
-				EE235FB21C5785D400C08960 /* ConstraintMakerPriortizable.swift in Sources */,
 				EE235F8B1C5785C600C08960 /* LayoutConstraint.swift in Sources */,
 				7E1CB2B0227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift in Sources */,
 				EE235FA31C5785CE00C08960 /* ConstraintInsetTarget.swift in Sources */,
 				EE235F9D1C5785CE00C08960 /* ConstraintMultiplierTarget.swift in Sources */,
 				EE235FC01C5785DC00C08960 /* ConstraintViewDSL.swift in Sources */,
 				EE235F5F1C5785BC00C08960 /* Debugging.swift in Sources */,
-				EE235FC31C5785DC00C08960 /* ConstraintLayoutSupportDSL.swift in Sources */,
 				EE235F7F1C5785C600C08960 /* ConstraintRelation.swift in Sources */,
-				EEF68FB41D784FBA00980C26 /* UILayoutSupport+Extensions.swift in Sources */,
-				EE235F701C5785C600C08960 /* ConstraintDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

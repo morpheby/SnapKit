@@ -153,16 +153,16 @@ private func descriptionForObject(_ object: AnyObject) -> String {
     desc += type(of: object).description()
     
     if let object = object as? ConstraintView {
-        desc += ":\(object.snp.label() ?? pointerDescription)"
+//        desc += ":\(object.snp.label() ?? pointerDescription)"
     } else if let object = object as? LayoutConstraint {
         desc += ":\(object.label ?? pointerDescription)"
     } else {
         desc += ":\(pointerDescription)"
     }
     
-    if let object = object as? LayoutConstraint, let file = object.constraint?.sourceLocation.0, let line = object.constraint?.sourceLocation.1 {
-        desc += "@\((file as NSString).lastPathComponent)#\(line)"
-    }
+//    if let object = object as? LayoutConstraint, let file = object.constraint?.sourceLocation.0, let line = object.constraint?.sourceLocation.1 {
+//        desc += "@\((file as NSString).lastPathComponent)#\(line)"
+//    }
     
     desc += ""
     return desc
